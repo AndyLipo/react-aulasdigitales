@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Remera Oversize",
+        "precio": 15000,
+        "categoria": "Remeras",
+        "imagen": "https://picsum.photos/seed/remera1/300/300",
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "nombre": "Buzo Canguro",
+        "precio": 28000,
+        "categoria": "Buzos",
+        "imagen": "https://picsum.photos/seed/buzo1/300/300",
+        "stock": 5
+    },
+    {
+        "id": 3,
+        "nombre": "Pantalón Cargo",
+        "precio": 32000,
+        "categoria": "Pantalones",
+        "imagen": "https://picsum.photos/seed/pantalon1/300/300",
+        "stock": 8
+    },
+    {
+        "id": 4,
+        "nombre": "Campera de Jean",
+        "precio": 45000,
+        "categoria": "Camperas",
+        "imagen": "https://picsum.photos/seed/campera1/300/300",
+        "stock": 3
+    },
+    {
+        "id": 5,
+        "nombre": "Zapatillas Urbanas",
+        "precio": 60000,
+        "categoria": "Calzado",
+        "imagen": "https://picsum.photos/seed/zapatillas1/300/300",
+        "stock": 12
+    },
+    {
+        "id": 6,
+        "nombre": "Gorra Classic",
+        "precio": 9000,
+        "categoria": "Accesorios",
+        "imagen": "https://picsum.photos/seed/gorra1/300/300",
+        "stock": 20
+    }
+]
