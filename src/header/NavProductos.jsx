@@ -1,5 +1,5 @@
 
-export const Productos = () => {
+export const NavProductos = () => {
     return (
         <div className="flex">
             Productos

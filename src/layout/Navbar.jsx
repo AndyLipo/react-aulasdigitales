@@ -1,46 +1,42 @@
 import { NavLink } from "react-router"
-import { Inicio } from "../header/NavInicio"
-import { SobreNosotros } from "../header/NavSobreNosotros"
-import { Productos } from "../header/NavProductos"
-import { Carrito } from "../header/NavCarrito"
+import { NavInicio } from "../header/NavInicio"
+import { NavSobreNosotros } from "../header/NavSobreNosotros"
+import { NavProductos } from "../header/NavProductos"
 import Logo from "../assets/react.svg"
+import { NavCarrito } from "../header/NavCarrito"
+
 
 export const Navbar = () => {
 
+    const linkClass = ({ isActive }) =>
+        `px-3 py-2 rounded transition-colors ${isActive ? "active" : "text-slate-200 hover:text-white"}`
+    const cartLinkClass = ({ isActive }) =>
+        `text-slate-200 hover:text-white transition-colors ${isActive ? "active" : ""}`
+
     return (
-        <nav className="flex flex-row justify-between items-center">
+        <nav className="flex flex-row justify-between items-center bg-slate-800 px-6 py-4 shadow-md">
             {/* logo */}
-            <div className="bg-blue-500">
-                <NavLink
-                    to="/"
-                >
-                    <img src={Logo} alt="Img de logo" />
+            <div>
+                <NavLink to="/">
+                    <img src={Logo} alt="Logo TiendaShop" className="h-10" />
                 </NavLink>
             </div>
             {/* links navegacion */}
-            <div className="bg-pink-500 flex flex-row items-center justify-evenly flex-1">
-                <NavLink
-                    to="/"
-                    className={({ isActive }) =>
-                        isActive ? "active" : ""
-                    }
-                >
-                    <Inicio />
+            <div className="flex flex-row items-center justify-center gap-4 flex-1 ml-8">
+                <NavLink to="/" className={linkClass}>
+                    <NavInicio />
                 </NavLink>
-                <NavLink
-                    to="/sobre-nosotros"
-                    className={({ isActive }) => isActive ? "active" : ""}>
-                    <SobreNosotros />
+                <NavLink to="/sobre-nosotros" className={linkClass}>
+                    <NavSobreNosotros />
                 </NavLink>
-                <NavLink to="/productos"
-                    className={({ isActive }) => isActive ? "active" : ""}>
-                    <Productos />
+                <NavLink to="/productos" className={linkClass}>
+                    <NavProductos />
                 </NavLink>
             </div>
             {/* link navegacion carrito */}
-            <div className="bg-cyan-500">
-                <NavLink to="/carrito" className={({ isActive }) => isActive ? "active" : ""}>
-                    <Carrito />
+            <div>
+                <NavLink to="/carrito" className={cartLinkClass}>
+                    <NavCarrito />
                 </NavLink>
             </div>
         </nav>

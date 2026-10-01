@@ -1,8 +1,5 @@
-
-export const Carrito = () => {
+export const NavCarrito = () => {
     return (
-        <div className="flex">
-            Carrito
-        </div>
+        <div>Carrito</div>
     )
 }

@@ -1,5 +1,5 @@
 
-export const Inicio = () => {
+export const NavInicio = () => {
     return (
         <div className="flex">
             Inicio
