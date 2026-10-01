@@ -4,7 +4,7 @@
         "nombre": "Teclado Gamer",
         "precio": 15000,
         "categoria": "Teclado",
-        "imagen": "/public/assets/teclado.webp",
+        "imagen": "/assets/teclado.webp",
         "stock": 10
     },
     {
@@ -12,7 +12,7 @@
         "nombre": "Mouse Gamer",
         "precio": 28000,
         "categoria": "Mouse",
-        "imagen": "/public/assets/mouse.jpeg",
+        "imagen": "/assets/mouse.jpeg",
         "stock": 5
     },
     {
@@ -28,7 +28,7 @@
         "nombre": "Notebook",
         "precio": 45000,
         "categoria": "Notebook",
-        "imagen": "/public/assets/notebook.avif",
+        "imagen": "/assets/notebook.avif",
         "stock": 3
     },
     {
@@ -36,7 +36,7 @@
         "nombre": "Computadora",
         "precio": 60000,
         "categoria": "Computadora",
-        "imagen": "/public/assets/computadora.webp",
+        "imagen": "/assets/computadora.webp",
         "stock": 12
     },
     {
@@ -44,7 +44,7 @@
         "nombre": "Perifericos",
         "precio": 9000,
         "categoria": "Perifericos",
-        "imagen": "/public/assets/periifericos.jpg",
+        "imagen": "/assets/periifericos.jpg",
         "stock": 20
     }
 ]
