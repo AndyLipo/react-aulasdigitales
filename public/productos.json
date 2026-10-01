@@ -20,7 +20,7 @@
         "nombre": "Auriculares",
         "precio": 32000,
         "categoria": "Auriculares",
-        "imagen": "/public/assets/Auriculares.jpg",
+        "imagen": "/assets/Auriculares.jpg",
         "stock": 8
     },
     {
