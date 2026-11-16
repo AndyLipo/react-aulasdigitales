@@ -16,6 +16,7 @@ export const Inicio = () => {
             >
                 Ver productos
             </Link>
+
         </div>
     )
 }
